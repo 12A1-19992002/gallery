@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, user-scalable=no" />
+      <title>Photo album - QQ_062020</title>
+      <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
+      <link rel="stylesheet" href="public/videojs/video-js.min.css" />
+      <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
+      <link rel="stylesheet" href="public/core.css" />
+      <link rel="stylesheet" href="public/theme.css" />
+  </head>
+
+  <body>
+
+    
+    <div id="container">
+    
+      <!--
+        Gallery title
+      -->
+      <header>
+        <h1><a href="index.html">Photo album</a></h1>
+      </header>
+    
+      <!--
+        Breadcrumbs of parent albums
+      -->
+      <nav class="breadcrumbs">
+    <a class="breadcrumb-item" href="index.html">Home</a>&nbsp;/&nbsp;<a class="breadcrumb-item" href="QQ_062020.html">QQ_062020</a>
+      </nav>
+    
+      <!--
+        Nested albums, if any
+      -->
+      <div id="albums">
+    <a href="QQ_062020-Grand_Opening_Ceremony.html" style="background-image: url('media/large/QQ_062020/Grand_Opening_Ceremony/02AF18AF-695A-4425-93B4-79CB56DAAF2F.jpeg')">
+            <div class="info">
+              <h3>Grand_Opening_Ceremony</h3>
+              <div class="summary">14 photos</div>
+              <div class="date">28 Jun 2020 - 01 Jul 2020</div>
+            </div>
+          </a>  </div>
+    
+      <!--
+        All photos and videos
+      -->
+      <ul id="media" class="clearfix">
+          
+            <li data-src="media/large/QQ_062020/41C8F3A7-DD62-4FC7-B839-2CE36EAF8764.jpeg"
+                data-sub-html=""
+                data-download-url="media/original/QQ_062020/41C8F3A7-DD62-4FC7-B839-2CE36EAF8764.jpeg"
+                
+                data-filename="41C8F3A7-DD62-4FC7-B839-2CE36EAF8764.jpeg"
+          
+              >
+              <a href="media/original/QQ_062020/41C8F3A7-DD62-4FC7-B839-2CE36EAF8764.jpeg">
+                <img src="media/thumbs/QQ_062020/41C8F3A7-DD62-4FC7-B839-2CE36EAF8764.jpeg"
+                     width="120"
+                     height="120"
+                     alt="41C8F3A7-DD62-4FC7-B839-2CE36EAF8764.jpeg" />
+              </a>
+            </li>  </ul>
+    
+      <!--
+        Optional footer
+      -->
+      <footer>
+        <p>Copyright TuyDuyenHoi</p>
+      </footer>
+    
+    </div>
+    <!-- Video loader -->
+    <div id="videos">
+    </div>
+
+    <!-- jQuery -->
+    <script src="public/jquery.min.js"></script>
+    <!-- VideoJS -->
+    <script src="public/videojs/video.min.js"></script>
+    <!-- LightGallery -->
+    <script src="public/lightgallery/js/lightgallery.js"></script>
+    <script src="public/lightgallery/js/lg-autoplay.js"></script>
+    <script src="public/lightgallery/js/lg-pager.js"></script>
+    <script src="public/lightgallery/js/lg-thumbnail.js"></script>
+    <script src="public/lightgallery/js/lg-video.js"></script>
+    <script src="public/lightgallery/js/lg-exif.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#media").lightGallery({
+          thumbWidth: 80,
+          controls: true,
+          loop : false,
+          download: true,
+          counter: true,
+          videojs: true
+        });
+      });
+    </script>
+
+
+  </body>
+
+</html>
